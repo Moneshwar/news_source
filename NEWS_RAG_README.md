@@ -42,7 +42,7 @@ A comprehensive AI-powered news chatbot system that combines real-time news scra
 
 ## 🎥 Demo Video
 
-[Demo Video Link] - [_Video Link ](https://drive.google.com/file/d/1g_0QGbHM5-oKmQAm4ncM5q0EYhXmOMTt/view)
+[Demo Video Link] - [ Video Link ](https://drive.google.com/file/d/1g_0QGbHM5-oKmQAm4ncM5q0EYhXmOMTt/view)
 
 - Frontend startup and interface
 - Sending queries and observing Gemini AI responses
