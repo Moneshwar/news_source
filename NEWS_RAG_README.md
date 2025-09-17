@@ -6,8 +6,7 @@ A comprehensive AI-powered news chatbot system that combines real-time news scra
 
 **🚀 Try the live application:**
 
-- **Frontend**: [https://news-rag-frontend-1.onrender.com/](https://news-rag-frontend-1.onrender.com/)
-- **Backend API**: Deployed on Render (accessible via frontend)
+- **Live Link:**: [https://news-rag-frontend-1.onrender.com/](https://news-rag-frontend-1.onrender.com/)
 
 ## 📂 Repositories
 
@@ -43,7 +42,7 @@ A comprehensive AI-powered news chatbot system that combines real-time news scra
 
 ## 🎥 Demo Video
 
-[Demo Video Link] - _Video showing:_
+[Demo Video Link] - [_Video Link ](https://drive.google.com/file/d/1g_0QGbHM5-oKmQAm4ncM5q0EYhXmOMTt/view)
 
 - Frontend startup and interface
 - Sending queries and observing Gemini AI responses
@@ -65,9 +64,7 @@ A comprehensive AI-powered news chatbot system that combines real-time news scra
 #### 2. Redis Caching & Session History
 
 - **Session Management**: Each user session is tracked with unique identifiers
-- **Conversation History**: Chat history is cached in Redis with TTL expiration
-- **Query Caching**: Frequent queries and responses are cached to improve performance
-- **Cache Invalidation**: Smart cache refresh strategies for updated news data
+- **Conversation History**: Chat history is cached in Redis
 
 #### 3. Frontend API/Socket Communication
 
@@ -122,7 +119,7 @@ The News RAG Chat Bot is built using a modern microservices architecture with th
 
 ## 🔧 Core Components
 
-### 1. News Source (`/news-source/`)
+### 1. News Source (`news-source`)
 
 **Purpose**: Automated news collection and data pipeline
 
@@ -131,7 +128,7 @@ The News RAG Chat Bot is built using a modern microservices architecture with th
 - **API Integration**: Posts processed articles to the RAG backend for vector storage
 - **Rate Limiting**: Respectful scraping with configurable delays
 
-### 2. RAG Backend (`/rag-chatbot-backend/`)
+### 2. RAG Backend (`rag-chatbot-backend`)
 
 **Purpose**: Core AI processing and API services
 
@@ -141,7 +138,7 @@ The News RAG Chat Bot is built using a modern microservices architecture with th
 - **Session Management**: Maintains conversation context and history
 - **Caching**: Redis-based performance optimization
 
-### 3. Frontend Client (`/rag-chatbot-frontend/`)
+### 3. Frontend Client (`rag-chatbot-frontend`)
 
 **Purpose**: User interface and interaction layer
 
@@ -204,19 +201,12 @@ graph TD
 
 - **Caching**: Redis-based caching for frequently accessed data
 - **Streaming Responses**: Real-time response generation for better UX
-- **Rate Limiting**: Respectful API usage and resource management
 
 ### 🎨 Modern User Interface
 
 - **Responsive Design**: Works seamlessly across desktop and mobile
 - **Real-time Updates**: Live typing indicators and streaming responses
 - **Clean Aesthetics**: Modern design with Tailwind CSS
-
-### 🛡️ Robust Architecture
-
-- **Error Handling**: Comprehensive error management across all components
-- **Scalability**: Microservices architecture for easy scaling
-- **Monitoring**: Health check endpoints for system monitoring
 
 ## 📄 License
 
@@ -230,5 +220,3 @@ This project is licensed under the ISC License.
 - [Render Hosting](https://render.com/)
 
 ---
-
-_Built with ❤️ for intelligent news discovery_
