@@ -21,7 +21,7 @@ A comprehensive AI-powered news chatbot system that combines real-time news scra
 
 ### Frontend
 
-- **React 18** with TypeScript
+- **React 22** with TypeScript
 - **Vite** for build tooling
 - **Tailwind CSS** for styling
 - **Custom hooks** for state management
